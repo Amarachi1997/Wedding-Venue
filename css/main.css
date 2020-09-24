@@ -1,0 +1,383 @@
+@font-face{
+    font-family: myFont;
+    src: url("../Satisfy-Regular.ttf")
+}
+
+@font-face{
+    font-family: mySecondFont;
+    src: url("../Cinzel-Bold.ttf");
+}
+
+@font-face{
+    font-family: myThirdFont;
+    src: url("../Roboto-Thin.ttf");
+}
+
+@font-face{
+    font-family: myFourthFont;
+    src: url("../Roboto-Light.ttf");
+}
+
+
+/*navigation bar*/
+#nav{
+    width:750px;
+    margin:0 auto;
+    list-style:none;
+    }
+    #nav li {
+    float:left;
+    }
+    #nav a {
+    display:block;
+    text-align:center;
+    width:150px; /* fixed width */
+    text-decoration:none; 
+    }
+
+.menu-bar{
+    margin-left: 90px !important;
+}
+
+    /*text styles*/
+
+h3{
+    font-family: myFont;
+    font-weight: bold;
+}
+
+h1{
+    font-family: mySecondFont;
+}
+
+
+/*venue section*/
+
+#venue{
+    background: url("../images/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0px;
+}
+.venue-text{
+    font-size: 1rem;
+    line-height: 2rem;
+    font-family: myThirdFont;
+    border: 2px solid;
+    padding: 15px 30px;
+}
+
+
+
+@media (max-width:1028px){
+    .venue-text{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        border: 2px solid;
+        padding: 30px 20px;
+    }
+    h1{
+        font-family: mySecondFont;
+    }
+    #venue{
+        background: url("../images/1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 30px 0px;
+    }
+}
+
+/*welcome section*/
+
+#welcome{
+    padding: 25px 7px;
+}
+.welcome-image{
+    height: 350px;
+    width: 100%;
+}
+.welcome-text{
+    text-align: justify;
+    font-family: myFourthFont;
+    font-weight: 400;
+    font-size: small;
+}
+.welcome-header{
+    font-family: myFourthFont;
+    font-weight: bold;
+}
+.welcome-list{
+    text-align: justify;
+    font-family: myFourthFont;
+    font-size: small;
+    padding: 9px;
+    color: #9e9e9e;
+}
+.third-welcome{
+    height: 100%;
+    background: #f5f5f5;
+}
+
+@media(max-width:1028px){
+    #welcome{
+        padding: 0px 30px;
+    }
+
+    .welcome-image{
+        padding: 40px 0px;
+        width: 95%;
+    }
+
+    .welcome-text{
+        padding: 0px 0px 40px 0px !important;
+    }
+
+}
+
+/*services section*/
+
+#services{
+    background: #f5f5f5;
+    padding: 25px 0px;
+}
+
+.services-icon{
+    font-size: 4rem;
+    color: #f4511e;
+    border: #fff 2px solid;
+    border-radius: 7rem;
+    padding: 13px;
+    background-color: #fff;
+}
+
+.service-text{
+    font-family: myFourthFont;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+.service-second-text{
+    font-family: myFourthFont;
+    font-size: .8rem;
+    text-align: justify;
+}
+
+@media(max-width:1028px){
+    .services-second{
+        padding-top: 40px;
+    }
+}
+
+/*testimonial section*/
+.carousel-image{
+    background:url("../images/1.jpg") no-repeat;
+    background-size: cover;
+}
+
+.testimonial-icon{
+    font-size: 4rem;
+    color: #fff;
+}
+
+/*events section*/
+
+#events{
+    padding: 100px 0px;
+}
+
+.events-card-header{
+    font-family: myFourthFont;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.events-card-bold{
+    font-family: myFourthFont;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.events-card-text{
+    font-family: myFourthFont;
+    font-size: .8rem;
+    text-align: justify;
+}
+
+.card-red{
+    border: 1px #d84315 solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.card-green{
+    border: 1px #00c853  solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.events-image{
+    height: 300px;
+}
+
+.events-icon-first{
+    background-color:#dd2c00 ;
+    width: 40px !important;
+    padding: 20px 10px !important;
+}
+
+.events-icon-second{
+    background-color:#dd2c00 ;
+}
+.events-icon{
+    color: #fff;
+}
+
+.first-card{
+    position: relative;
+    padding: 30px 0px !important;
+}
+
+
+.first-card-second{
+    position: absolute;
+    margin: 0px 0px 0px 200px !important;
+}
+.first-card-third{
+    position: relative;
+    margin-left: 400px !important;
+}
+
+.second-card-first{
+    margin-left: 590px !important;
+}
+
+.second-card-third{
+    position: absolute;
+    margin-left: 190px !important;
+}
+
+
+@media(max-width:1028px){
+    #events{
+        padding: 50px 0px;
+    }
+
+    .events-card-header{
+    font-family: myFourthFont;
+    font-size: 2rem;
+    text-align: center;
+    }
+
+    .events-card-bold{
+    font-family: myFourthFont;
+    font-size: 1rem;
+    text-align: center;
+    }
+
+    .events-card-text{
+    font-family: myFourthFont;
+    font-size: .8rem;
+    text-align: justify;
+    }
+
+    .card-red{
+    border: 1px #d84315 solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    }
+
+    .card-green{
+    border: 1px #00c853  solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    }
+
+    .events-image{
+    height: 300px;
+    }
+
+    .events-icon-first{
+    background-color:#dd2c00 ;
+    width: 40px !important;
+    padding: 20px 10px !important;
+    }
+
+    .events-icon-second{
+    background-color:#dd2c00 ;
+    }
+    .events-icon{
+    color: #fff;
+    }
+
+    .first-card{
+    position: relative;
+    }
+
+    .first-card-second{
+    position: absolute;
+    margin: 0px 0px 0px 110px !important;
+    }
+    .first-card-third{
+    position: relative;
+    margin-left: 120px !important;
+    }
+
+    .second-card-first{
+    margin-left: 250px !important;
+    }
+
+    .second-card-third{
+    position: absolute;
+    margin-left: 100px !important;
+    }
+}
+
+
+/*footer section*/
+#footer{
+    background: #222c31;
+    padding: 30px 20px;
+}
+
+.footer-icon{
+    color: #fff;
+    padding: 7px;
+    font-size: 1rem;
+}
+
+.footer-copyright{
+    background: #34434b;
+    padding: 10px 10px;
+}
+
+.footer-image{
+    height: 100px;
+    width: 100px;
+    float: left;
+    padding: 10px;
+}
+
+.footer-header{
+    font-family: myFourthFont;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.footer-text{
+    font-family: myFourthFont;
+    font-size: .8rem;
+}
+
+@media(max-width:1028){
+    .footer-image{
+        height: 50px;
+        width: 60px;
+        float: left;
+    }
+}
